@@ -1,0 +1,18 @@
+Package: linesplitter
+Type: Package
+Title: Example R Package wrapping the 'nanoarrow' Example of a Linesplitter
+Version: 0.0.1
+Date: 2023-11-21
+Author: Dirk Eddelbuettel
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: The nanoarrow package offers C-level functionality to work with Arrow objects,
+ along with a small amount of C++ integration. Its documentation contains a C++ example of a
+ line splitting routine filling an Arrow array. This package provides a minimal wrapper from R.
+ It currently contains Rcpp bindings for convenience which could be removed to make it a C API
+ example bindings package. The package contains code from the 'nanoarrow' package and its
+ documentation.
+License: GPL (>= 2)
+Imports: Rcpp, nanoarrow
+Suggests: arrow
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1

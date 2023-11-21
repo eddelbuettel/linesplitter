@@ -1,0 +1,8 @@
+
+PKG_CPPFLAGS = -I. -I../inst/include -DNANOARROW_DEBUG -DNANOARROW_DEBUG_PRESERVE
+
+OBJECTS = \
+	RcppExports.o \
+	wrapper.o \
+	linesplitter/linesplitter.o \
+	nanoarrow/nanoarrow.o

@@ -1,0 +1,5 @@
+useDynLib(linesplitter, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+import(nanoarrow)
+#exportPattern("^[[:alpha:]]+")
+export(linesplit)
