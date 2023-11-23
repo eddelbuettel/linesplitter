@@ -1,2 +1,0 @@
-
-#include <nanoarrow/nanoarrow.h>
