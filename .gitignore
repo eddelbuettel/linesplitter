@@ -71,3 +71,7 @@ vignettes/*.pdf
 *.exe
 *.out
 *.app
+
+
+# Emacs
+*~
